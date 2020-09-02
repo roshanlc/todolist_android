@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="test_values">Test Values</string>
+    <string name="add_a_new_todo_item_to_list">Add a new ToDo Item To List</string>
+    <string name="hintForDialog">Activity to be done</string>
+    <string name="text_data">Text Data</string>
+</resources>

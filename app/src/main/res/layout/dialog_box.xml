@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textStyle="normal"
+        android:paddingLeft="10dp"
+
+        android:text="Add a new todo Item"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+
+        />
+
+    <EditText
+        android:id="@+id/toDoValue"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:gravity="start|top"
+        android:hint="@string/hintForDialog"
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical"
+
+        android:textSize="20sp" />
+
+
+</LinearLayout>
